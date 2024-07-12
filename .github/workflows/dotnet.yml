@@ -42,4 +42,4 @@ jobs:
         uses: actions/upload-artifact@v2
         with:
           name: LivingDocResults
-          path: /home/runner/work/DemoQA_Project_SpecFlow/DemoQA_Project_SpecFlow/LivingDoc.html  # Adjust this path to match the actual location where LivingDoc generates HTML output
+          path: /home/runner/work/Specflow_DemoQA/Specflow_DemoQA/LivingDoc.html  # Adjust this path to match the actual location where LivingDoc generates HTML output
