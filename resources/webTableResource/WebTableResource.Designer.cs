@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace DemoQA_Project_SpecFlow.resources.webTableResource {
+namespace DemoQA_Project_SpecFlow.Resources.webTableResource {
     using System;
     
     
@@ -39,7 +39,7 @@ namespace DemoQA_Project_SpecFlow.resources.webTableResource {
         internal static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("DemoQA_Project_SpecFlow.resources.webTableResource.WebTableResource", typeof(WebTableResource).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("DemoQA_Project_SpecFlow.Resources.webTableResource.WebTableResource", typeof(WebTableResource).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;

@@ -34,27 +34,27 @@
     <Compile Update="Features\PracticeFormFeature.feature.cs">
       <DependentUpon>PracticeFormFeature.feature</DependentUpon>
     </Compile>
-    <Compile Update="resources\alertFrameResource\AlertFrameResource.Designer.cs">
+    <Compile Update="Resources\alertFrameResource\AlertFrameResource.Designer.cs">
       <DesignTime>True</DesignTime>
       <AutoGen>True</AutoGen>
       <DependentUpon>AlertFrameResource.resx</DependentUpon>
     </Compile>
-    <Compile Update="resources\autoCompleteResource\AutoCompleteResource.Designer.cs">
+    <Compile Update="Resources\autoCompleteResource\AutoCompleteResource.Designer.cs">
       <DesignTime>True</DesignTime>
       <AutoGen>True</AutoGen>
       <DependentUpon>AutoCompleteResource.resx</DependentUpon>
     </Compile>
-    <Compile Update="resources\practiceFormResource\PracticeFormResource.Designer.cs">
+    <Compile Update="Resources\practiceFormResource\PracticeFormResource.Designer.cs">
       <DesignTime>True</DesignTime>
       <AutoGen>True</AutoGen>
       <DependentUpon>PracticeFormResource.resx</DependentUpon>
     </Compile>
-    <Compile Update="resources\textBoxResource\TextBoxResource.Designer.cs">
+    <Compile Update="Resources\textBoxResource\TextBoxResource.Designer.cs">
       <DesignTime>True</DesignTime>
       <AutoGen>True</AutoGen>
       <DependentUpon>TextBoxResource.resx</DependentUpon>
     </Compile>
-    <Compile Update="resources\webTableResource\WebTableResource.Designer.cs">
+    <Compile Update="Resources\webTableResource\WebTableResource.Designer.cs">
       <DesignTime>True</DesignTime>
       <AutoGen>True</AutoGen>
       <DependentUpon>WebTableResource.resx</DependentUpon>
@@ -62,23 +62,23 @@
   </ItemGroup>
 
   <ItemGroup>
-    <EmbeddedResource Update="resources\alertFrameResource\AlertFrameResource.resx">
+    <EmbeddedResource Update="Resources\alertFrameResource\AlertFrameResource.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>AlertFrameResource.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <EmbeddedResource Update="resources\autoCompleteResource\AutoCompleteResource.resx">
+    <EmbeddedResource Update="Resources\autoCompleteResource\AutoCompleteResource.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>AutoCompleteResource.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <EmbeddedResource Update="resources\practiceFormResource\PracticeFormResource.resx">
+    <EmbeddedResource Update="Resources\practiceFormResource\PracticeFormResource.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>PracticeFormResource.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <EmbeddedResource Update="resources\textBoxResource\TextBoxResource.resx">
+    <EmbeddedResource Update="Resources\textBoxResource\TextBoxResource.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>TextBoxResource.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <EmbeddedResource Update="resources\webTableResource\WebTableResource.resx">
+    <EmbeddedResource Update="Resources\webTableResource\WebTableResource.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>WebTableResource.Designer.cs</LastGenOutput>
     </EmbeddedResource>

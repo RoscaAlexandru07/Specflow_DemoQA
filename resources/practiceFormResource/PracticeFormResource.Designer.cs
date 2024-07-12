@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace DemoQA_Project_SpecFlow.resources.practiceFormResource {
+namespace DemoQA_Project_SpecFlow.Resources.practiceFormResource {
     using System;
     
     
@@ -39,7 +39,7 @@ namespace DemoQA_Project_SpecFlow.resources.practiceFormResource {
         internal static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("DemoQA_Project_SpecFlow.resources.practiceFormResource.PracticeFormResource", typeof(PracticeFormResource).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("DemoQA_Project_SpecFlow.Resources.practiceFormResource.PracticeFormResource", typeof(PracticeFormResource).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;

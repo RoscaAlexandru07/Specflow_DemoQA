@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace DemoQA_Project_SpecFlow.resources.alertFrameResource {
+namespace DemoQA_Project_SpecFlow.Resources.alertFrameResource {
     using System;
     
     
@@ -39,7 +39,7 @@ namespace DemoQA_Project_SpecFlow.resources.alertFrameResource {
         internal static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("DemoQA_Project_SpecFlow.resources.alertFrameResource.AlertFrameResource", typeof(AlertFrameResource).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("DemoQA_Project_SpecFlow.Resources.alertFrameResource.AlertFrameResource", typeof(AlertFrameResource).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;

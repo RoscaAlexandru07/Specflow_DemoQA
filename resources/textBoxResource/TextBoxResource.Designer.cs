@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace DemoQA_Project_SpecFlow.resources.textBoxResource {
+namespace DemoQA_Project_SpecFlow.Resources.textBoxResource {
     using System;
     
     
@@ -39,7 +39,7 @@ namespace DemoQA_Project_SpecFlow.resources.textBoxResource {
         internal static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("DemoQA_Project_SpecFlow.resources.textBoxResource.TextBoxResource", typeof(TextBoxResource).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("DemoQA_Project_SpecFlow.Resources.textBoxResource.TextBoxResource", typeof(TextBoxResource).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;

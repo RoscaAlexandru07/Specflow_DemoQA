@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace DemoQA_Project_SpecFlow.resources.autoCompleteResource {
+namespace DemoQA_Project_SpecFlow.Resources.autoCompleteResource {
     using System;
     
     
@@ -39,7 +39,7 @@ namespace DemoQA_Project_SpecFlow.resources.autoCompleteResource {
         internal static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("DemoQA_Project_SpecFlow.resources.autoCompleteResource.AutoCompleteResource", typeof(AutoCompleteResource).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("DemoQA_Project_SpecFlow.Resources.autoCompleteResource.AutoCompleteResource", typeof(AutoCompleteResource).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;
