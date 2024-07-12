@@ -1,0 +1,45 @@
+name: .NET Core Tests
+
+on:
+  workflow_dispatch:
+    inputs:
+      suite:
+        description: 'Choose suite: RegressionSuite, SmokeSuite, PracticeFormValidScenarios'
+        required: true
+        default: SmokeSuite
+
+jobs:
+  build:
+    runs-on: ubuntu-latest  
+    permissions: write-all
+
+    env:
+      ciCd: true
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Setup .NET Core SDK
+        uses: actions/setup-dotnet@v1
+        with:
+          dotnet-version: 6.0.x  # Replace 'x' with the desired version
+
+      - name: Build project
+        run: |
+          dotnet build DemoQA_Project_SpecFlow.csproj
+          dotnet tool install --global SpecFlow.Plus.LivingDoc.CLI
+          chmod +x $(find . -name selenium-manager -type f)
+          
+      - name: Run ${{ github.event.inputs.suite }} suite
+        run: dotnet test DemoQA_Project_SpecFlow.csproj --filter TestCategory=${{ github.event.inputs.suite }}
+
+      - name: Generate test results
+        run: livingdoc test-assembly ./bin/Debug/net6.0/DemoQA_Project_SpecFlow.dll -t $GITHUB_WORKSPACE/bin/Debug/net6.0/TestExecution.json
+
+      - name: Upload test results
+        if: always()
+        uses: actions/upload-artifact@v2
+        with:
+          name: LivingDocResults
+          path: /home/runner/work/DemoQA_Project_SpecFlow/DemoQA_Project_SpecFlow/LivingDoc.html  # Adjust this path to match the actual location where LivingDoc generates HTML output
