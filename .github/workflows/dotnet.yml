@@ -1,4 +1,4 @@
-name: .NET Core Tests
+name: Specflow DemoQA Suite Run
 
 on:
   workflow_dispatch:
@@ -31,7 +31,7 @@ jobs:
           dotnet tool install --global SpecFlow.Plus.LivingDoc.CLI
           chmod +x $(find . -name selenium-manager -type f)
           
-      - name: Run ${{ github.event.inputs.suite }} suite
+      - name: Run ${{ github.event.inputs.suite }}
         run: dotnet test DemoQA_Project_SpecFlow.csproj --filter TestCategory=${{ github.event.inputs.suite }}
 
       - name: Generate test results
