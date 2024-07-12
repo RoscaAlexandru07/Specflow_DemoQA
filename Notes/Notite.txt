@@ -235,4 +235,5 @@ Scenario Outline: Navigate to PracticeFormPage and fill the entire form with inv
 ASTA PENTRU FAILED 
 
 		| cristain  |   test   | sandumoca@yahoo.com | 1234512311 |   asda         | Other  |   Music      | Arts     | 20  |          |      | NCR   | Delhi |
+		CHECK
 		------------------------------------------------------------------------------------------------------------
